@@ -1,0 +1,28 @@
+#button1 {
+    color: rgb(15, 189, 174);
+    border-radius: 75px;
+    width: 100px;
+    border-color: rgba(24, 196, 181, 0.705);
+    margin: 10px;
+    font-weight: bold;
+}
+#button2 {
+    background-color: rgba(24, 196, 181, 0.705);
+    border-radius: 50%;
+    border: none;
+    color: white;
+    width: 30px;
+    height: 30px;
+    margin: 10px;
+    font-size: larger;
+    font-weight: bold;
+}
+#button3 {
+    background-color: rgba(0, 174, 255, 0.877);
+    color: white;
+    margin: 10px;
+    width: 150px;
+    height: 30px;
+    font-weight: bold;
+    box-shadow: 03px 03px 0px black;
+}
