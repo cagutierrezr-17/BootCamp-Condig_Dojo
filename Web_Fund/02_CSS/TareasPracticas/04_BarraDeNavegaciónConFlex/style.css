@@ -1,0 +1,39 @@
+@font-face {
+    font-family: Rotobo;
+    src: url(Fonts\Roboto-Bold.ttf);
+}
+
+*{
+    color: white;
+    font-family: roboto;
+}
+
+.nav {
+    display: flex;
+    background-color: rgb(71, 71, 71);
+}
+
+.nav-title{
+    display: inline-block;
+    align-content: center;
+    margin:20px;
+}
+
+.nav-links{
+    display: flex;
+    flex-grow: 1;
+    padding: 15px;
+    margin: 15px;
+    justify-content: end;
+    list-style-type: none;
+}
+
+.active {
+    padding-right: 20px;
+}
+
+#btn {
+    border: black 2px solid;
+    background-color: aqua;
+    box-shadow: 03px 03px black;
+}
