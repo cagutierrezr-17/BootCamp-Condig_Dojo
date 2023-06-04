@@ -1,0 +1,225 @@
+/* CSS reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+    
+  /* Clase fixed-width container que se "autocentrará" a sí misma */
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+    /* Boton de Busqueda */
+#button1 {
+    color: rgb(15, 189, 174);
+    border-radius: 75px;
+    width: 100px;
+    border-color: rgba(24, 196, 181, 0.705);
+    margin: 10px;
+    font-weight: bold;
+}
+
+    /* Boton de creación de cuenta */
+#button3 {
+    background-color: rgba(0, 174, 255, 0.877);
+    color: white;
+    margin: 10px;
+    width: 150px;
+    height: 30px;
+    font-weight: bold;
+    box-shadow: 03px 03px 0px black;
+}
+
+/* Columnas con flex segun fracción de pantalla */
+.row{
+    display: flex;
+}
+
+.col{
+    background-color: black;
+    height: 20px;
+    flex: 1;
+    margin: 20px;
+    padding: 10px;
+}
+
+.col-2{
+    background-color: black;
+    height: 20px;
+    flex: 3;
+    margin: 20px;
+    padding: 10px;
+}
+
+.col-3{
+    background-color: black;
+    height: 20px;
+    flex: 5;
+    margin: 20px;
+    padding: 10px;
+}
+
+    /* Formato barra superior para tarjeta de usuario o bloques de contenido segun tamaño */
+.top-bar{
+    height: 60px;
+    width: 430px;
+    border-end-end-radius: none;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    background-color: aqua;
+}
+
+    /* Color de enlaces */
+a {
+    color: royalblue;
+}
+
+    /* Formato pasar en enlace cambie de color */
+a.hover:hover{
+    color: red;
+}
+
+    /* Texto con enlace ingresado */
+h3 {
+    color: black;
+    font-family: cursive;
+    display: flex;
+    justify-content: center;
+    }
+
+span {
+    font-family: cursive;
+    display: flex;
+    justify-content: center;
+    margin-left: 7px;
+    }
+
+
+    /* Barra de navegación con links alineados izquierda */
+    .nav-bar{
+        display: flex;
+        background-color: black;
+        color: whitesmoke;
+        font-family: cursive;
+        font-size: x-large;
+    }
+    
+    .title{
+        display: flex;
+        align-items: center;
+        margin-left: 400px;
+    }
+    
+    .links-nav{
+        display: flex;
+        flex-grow: 1;
+        list-style-type: none;;
+    }
+    
+    .list{
+    display: flex;
+    align-items: center;
+    margin-left: 40px;
+    }
+
+    /* Barra de navegación con links alineados derecha*/
+    .nav {
+    display: flex;
+    background-color: rgb(71, 71, 71);
+}
+
+.nav-title{
+    display: inline-block;
+    align-content: center;
+    margin:20px;
+}
+
+.nav-links{
+    display: flex;
+    flex-grow: 1;
+    padding: 15px;
+    margin: 15px;
+    justify-content: end;
+    list-style-type: none;
+}
+
+.active {
+    padding-right: 20px;
+}
+
+#btn {
+    border: black 2px solid;
+    background-color: aqua;
+    box-shadow: 03px 03px black;
+}
+
+    /* Boton Cierre sesión 2 */
+    
+    #btn{
+        margin: 30px;
+        margin-top: 40px;
+        margin-right: 400px;
+        background-color: rgba(127, 246, 255, 0.788);
+        color: whitesmoke;
+        font-weight: bold;
+        font-size:large;
+        height: 40px;
+        width: 150px;
+        border: none;
+    }
+
+    /* Imagen dentro de topbar posición relativa */
+    #img{
+        position: relative;
+        height: 120%;
+        border: 5px white solid;
+        border-radius: 50%;
+        margin-top: 70px;
+        margin-left: 70px;
+    }
+
+    /* Boton redondo */
+    #cr{
+        margin-left: 20px;
+        margin-top: 05px;
+        height: 30px;
+        width: 30px;
+        border-radius: 50%;
+        background-color: rgb(176, 172, 172);
+        font-weight: bold;
+        border: none;
+        font-size: large;
+    }
+
+    /* Boton ovalado */
+    #yc{
+        margin-left: 20px;
+        margin-top: 05px;
+        height: 40px;
+        width: 70px;
+        border-radius: 50%;
+        background-color: rgb(176, 172, 172);
+        font-weight: bold;
+        border: none;
+        font-size: medium;
+    }
+
+        /* Boton de cerrar sesión en barra de navegación */
+#btn {
+    border: black 2px solid;
+    background-color: aqua;
+    box-shadow: 03px 03px black;
+}
+
+/* Agregado de nueva letra / recordar agregar tipo de letra a la misma carpeta*/
+@font-face {
+    font-family: Rotobo;
+    src: url(Fonts\Roboto-Bold.ttf);
+}
+
+*{
+    color: white;
+    font-family: roboto;
+}
