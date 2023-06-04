@@ -1,0 +1,294 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: cursive;
+}
+
+.nav-bar{
+    display: flex;
+    background-color: black;
+    color: whitesmoke;
+    font-family: cursive;
+    font-size: x-large;
+}
+
+.title{
+    display: flex;
+    align-items: center;
+    margin-left: 400px;
+}
+
+.links-nav{
+    display: flex;
+    flex-grow: 1;
+    list-style-type: none;;
+}
+
+.list{
+display: flex;
+align-items: center;
+margin-left: 40px;
+}
+
+#btn{
+    margin: 30px;
+    margin-top: 40px;
+    margin-right: 400px;
+    background-color: rgba(127, 246, 255, 0.788);
+    color: whitesmoke;
+    font-weight: bold;
+    font-size:large;
+    height: 40px;
+    width: 150px;
+    border: none;
+}
+
+.container{
+    display: flex;
+    height: 100%;
+    width: 100%
+}
+
+.main{
+    height: 100%;
+    width: 100%;
+    margin-left: 400px;
+    margin-top: 30px;
+}
+
+.card{
+    height: 500px;
+    width: 660px;
+    border: 5px gray solid;
+    border-radius: 5px;
+}
+
+#top-bar{
+    height: 150px;
+    background-color: rgba(16, 184, 182, 0.934);
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+}
+
+#img{
+    position: relative;
+    height: 120%;
+    border: 5px white solid;
+    border-radius: 50%;
+    margin-top: 70px;
+    margin-left: 70px;
+}
+
+#name{
+    font-size: 3em;
+    margin-top: 90px;
+    margin-left: 50px;
+}
+
+#map{
+    height: 25px;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+
+#info{
+    margin-top: 10px;
+}
+
+p {
+    display: inline;
+    padding: 10px;
+    font-weight: bold;
+    font-size: x-large;
+}
+
+.p {
+    margin-left: 50px;
+    font-weight: normal;
+    margin-top: 10px;
+}
+
+#img-2 {
+    height: 50px;
+    margin-left: 50px;
+}
+
+.gear{
+    display: flex;
+    align-items: center;
+    font-size: large;
+    margin-top: 10px;
+}
+
+span{
+    margin-left: 10px;
+}
+
+a.hover:hover{
+    color: red;
+}
+
+a {
+    color: royalblue;
+}
+
+.button-info{
+    height: 200px;
+    width: 660px;
+    margin-top: 60px;
+    border: 5px gray solid;
+    border-radius: 5px;
+}
+
+.text{
+    margin-top: 10px;
+}
+
+#text1{
+    color: gray;
+}
+
+#text2{
+    font-weight: normal;
+}
+
+.top-bar{
+    display: flex;
+    align-items: center;
+    height: 70px;
+    background-color: rgb(77, 76, 76);
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+}
+
+.info{
+    color: whitesmoke;
+    margin-left: 15px;
+    font-size: x-large;
+}
+
+.main-2{
+    height: 800px;
+    width: 520px;
+    margin-right: 400px;
+}
+
+.side-bar{
+    margin-top: 30px;
+    height: 300px;
+    width: 400px;
+    border: 5px gray solid;
+    border-radius: 5px;
+}
+
+.img-1{
+    position: relative;
+    height: 60px;
+    border: 2px gray solid;
+    border-radius: 50%;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+.info1{
+    color: whitesmoke;
+    font-size: large;
+    margin-left: 30px;
+}
+
+#cr{
+    margin-left: 20px;
+    margin-top: 05px;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: rgb(176, 172, 172);
+    font-weight: bold;
+    border: none;
+    font-size: large;
+}
+
+.side-bar2{
+    margin-top: 30px;
+    height: 430px;
+    width: 400px;
+    border: 5px gray solid;
+    border-radius: 5px;
+}
+
+.img{
+    position: relative;
+    display: block;
+    height: 60px;
+    border: 2px gray solid;
+    border-radius: 50%;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+
+#yc{
+    margin-left: 20px;
+    margin-top: 05px;
+    height: 40px;
+    width: 70px;
+    border-radius: 50%;
+    background-color: rgb(176, 172, 172);
+    font-weight: bold;
+    border: none;
+    font-size: medium;
+}
+
+.button-bar{
+    height: 50px;
+    width: 400px;
+    padding: 02px;
+    margin-top: 20px;
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+    border-top: 5px gray solid;
+}
+
+#view{
+    margin: 05px;
+}
+
+.name-2{
+    display: flex;
+    align-content: space-around;
+    padding: 10px;
+    margin-top: 30px;
+}
+
+.side-bar3{
+    display: flex;
+    height: 100px;
+}
+
+.side-bar4{
+    display: flex;
+    align-items: center;
+}
+
+.name-3{
+    display: inline-block;
+    margin-left: 40px;
+    margin-top: 10px;
+}
+
+.circle{
+    height: 50px;
+    margin-top: 30px;
+    margin-left: 35px;
+}
+
+#circle1{
+    height: 50px;
+    margin-top: 30px;
+    margin-left: 55px;
+}
+
+#circle2{
+    height: 50px;
+    margin-top: 30px;
+    margin-left: 35px;
+}
