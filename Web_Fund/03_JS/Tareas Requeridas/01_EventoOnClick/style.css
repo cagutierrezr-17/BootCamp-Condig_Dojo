@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 1200px;
+    height: 1500px;
+    margin: 0 auto;
+    font-family: cursive;
+}
+
+.nav{
+    width: 1160px;
+    height: 70px;
+    display: flex;
+    margin: 20px;
+    margin-top: 0px;
+    background-color: rgb(153, 152, 152);
+}
+
+#tittle{
+    margin-left: 100px;
+    margin-top: 5px;
+    font-weight: normal;
+    font-size: xx-large;
+}
+
+#search{
+    margin-left: 150px;
+    height: 30px;
+    width: 400px;
+    margin-top: 20px;
+    border: black 2px solid;
+}
+
+#login{
+    height: 30px;
+    width: 90px;
+    border: black 2px solid;
+    background-color: rgb(0, 68, 255);
+    box-shadow: 03px 03px black;
+    margin-left: 150px;
+    margin-top: 20px;
+    color: whitesmoke;
+    font-family: cursive;
+}
+
+.info{
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    margin-left: 120px;
+    height: 200px;
+    width: 550px;
+    border: black 2px solid;
+}
+
+.container2{
+    display: flex;;
+}
+.side-info{
+    display: inline-block;
+    justify-content: center;
+    margin-top: 30px;
+    margin-left: 40px;
+    width: 350px;
+    height: 220px;
+    border: black 2px solid;
+}
+
+.like{
+    height: 30px;
+    width: 90px;
+    border: black 2px solid;
+    background-color: orange;
+    box-shadow: 03px 03px black;
+    margin-left: 15px;
+    margin-top: 15px;
+    font-family: cursive;
+    font-weight: bold;
+}
+
+#add{
+    height: 40px;
+    width: 280px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(110, 156, 30);
+    border: black 2px solid;
+    box-shadow: 03px 03px black;
+    margin-left: 36px;
+    margin-top: 50px;
+    font-family: cursive;
+    font-weight: bold;
+    font-size: larger;
+}
+
+.tittle{
+    font-size: xx-large;
+    margin-left: 30px;
+}
+
+span{
+    display: block;
+    margin-left: 50px;
+    margin-top: 10px;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.span-1{
+    margin-left: 20px;
+    font-style: normal;
+    font-weight: normal;
+}
+
+.info-1{
+    margin-left: 70px;
+}
+
+.ninja{
+    margin-left: 50px;
+}
+
+a {
+    color: royalblue;
+}
+
+a.hover:hover{
+    color: red;
+}
+
+h3{
+    margin-left: 30px;
+    margin-top: 30px;
+    font-size: x-large;
+}
+
+#text{
+    margin-top: 10px;
+}
+
+
+
+
+
+

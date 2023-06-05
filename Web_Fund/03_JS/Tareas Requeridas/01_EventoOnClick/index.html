@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Evento OnClick</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="nav">
+            <h1 id="tittle">Dojonary</h1>
+            <input id="search" type="text" name="Search" placeholder="Search">
+            <button id="login" onclick="turnOff(this)">Login</button>
+        </div>
+        <div class="container2">
+            <div class="main">
+                <div class="info">
+                    <div class="ninja">
+                        <h2 class="tittle">ninja</h2>
+                        <span>noun</span>
+                        <span class="span-1">Plural:ninjas</span>
+                        <button class="like" onclick="alert('Ninja was liked')">13 Likes</button>
+                    </div>
+                    <div class="info-1">
+                        <p>A practitioner skilled in the</p>
+                        <a class="hover" href="#">Japanese</a> art of <a class="hover" href="#">ninjutsu</a>
+                    </div>
+                </div>
+                <div class="info">
+                    <div class="ninja">
+                        <h2 class="tittle">ninja</h2>
+                        <span>noun</span>
+                        <span class="span-1">Plural:ninjas</span>
+                        <button class="like" onclick="alert('Ninja was liked')">13 Likes</button>
+                    </div>
+                    <div class="info-1">
+                        <p>A <a class="hover" href="#">programmer</a> who breaks</p>
+                        <p>down problems wiht <a class="hover" href="#">zen</a>-like</p>
+                        <p>focus</p>
+                    </div>
+                </div>
+            </div>
+            <div class="main2">
+                <div class="side-info">
+                    <h3>Dojonary is</h3>
+                    <h3 id="text">defined by YOU</h3>                    
+                    <button id="add" onclick="hide(this)">Add Definition</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
