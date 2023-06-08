@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: cursive;
+    outline: red 2
+}
+
+/* CONTENEDOR TOTAL DE LA PAGINA */
+.container {
+    width: 680px;
+    height: 800px;
+    margin: 0 auto;
+}
+
+/* NETWORK BAR */
+.Nav{
+    display: flex;
+    align-items: center;
+    height: 60px;
+    width: 680px;
+    background-color: black;
+    color: whitesmoke;
+}
+
+#tittle{
+    height: 55px;    
+    margin-left: 40px;
+}
+
+/* TITULO DE CONTENEDOR */
+#tittle-container{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+
+/* CONTENEDOR DEL SIDE BAR Y RIGHT BAR */
+.container-2{
+    display: flex;
+    height: 600px;
+}
+
+/* ARMADO DE LA SIDE BAR */
+.side-bar{
+    height: 280px;
+    width: 200px;
+    border: 2px black solid;
+    margin-top: 10px;
+}
+
+#img-user{
+    display: block;
+    height: 80px;
+    margin: 40px 55px 20px 55px;
+}
+
+#a-sidebar{
+    margin-left: 35px;
+    font-size: larger;
+    color: royalblue;
+}
+
+#a-sidebar:hover{
+    color: red;
+}
+
+#name-side-bar{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+/* ARMADO DE LAS TARJETAS DERECHAS */
+/* CONTENEDOR DE LAS TARJETAS DERECHAS */
+.right-bar{
+    width: 460px;
+    height: 500px;
+    margin: 0px 0px 0px 40px
+}
+
+/* TARJETAS 1-2-3 */
+.top-info{
+    height: 150px;
+    width: 450px;  
+    border: 2px black solid;
+    margin-top: 10px;
+}
+
+#count{
+    margin-left: 80px;
+}
+
+#like2{
+    margin-left: 100px;
+}
+
+.info-inside{
+    width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 50px;
+    margin-top: 15px;
+}
+
+.random-info{
+    margin: 20px 30px;
+}
+
+span{
+    display: flex;
+    align-items: center;
+    height: 30px;
+    margin: 40px;
+    font-weight: bold;
+}
+
+h1{
+    margin-left: 30px;
+}
+
+.btn{
+    border: black 2px solid;
+    background-color: orange;
+    box-shadow: 03px 03px black;
+    height: 30px;
+    width: 60px;
+    font-weight: bold;
+}
+
+.hover:hover{
+    color: red;
+}
+
+.hover{
+    color: royalblue;
+}

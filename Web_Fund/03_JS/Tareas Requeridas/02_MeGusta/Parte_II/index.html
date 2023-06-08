@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Me Gusta - Parte II</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script> 
+</head>
+<body>
+    <div class="container">
+        <!-- Barra de titulo -->
+        <div class="Nav"> 
+            <h1 id="tittle">Network</h1>
+        </div>
+        <!-- titulo container -->
+        <h1 id="tittle-container">Your Fedd</h1>
+        <div class="container-2">
+            <!-- barra lateral de usuario -->
+            <div class="side-bar">
+                <img id="img-user" src="images/user-circle.png" alt="user">
+                <a id="a-sidebar" href="#">Add an avatar</a>
+                <h2 id="name-side-bar">James Doe</h2>
+            </div>
+            <!-- Barra derecha que contiene 3 tarjetas -->
+            <div class="right-bar">
+                <!-- tarjeta 1 -->
+                <div class="top-info">
+                    <div class="info-inside">
+                        <h1>Neil M</h1>
+                        <span id="count">9 like(s)</span>
+                        <button class="btn" onclick="add1()">Like</button>
+                    </div>
+                    <div class="random-info">
+                        <p>I just set up this new discord bot, let me</p>
+                        <p>know what you all think. <a class="hover" href="#">link</a></p>
+                    </div>
+                </div>
+                <!-- tarjeta-2 -->
+                <div class="top-info">
+                    <div class="info-inside">
+                        <h1>Nichole K</h1>
+                        <span id="like1">12 like(s)</span>
+                        <button class="btn" onclick="add2()">Like</button>
+                    </div>
+                    <div class="random-info">
+                        <p>Just finished my <a class="hover" href="#">next comic,</a> check it out.</p>
+                    </div>
+                </div>
+                <!-- tarjeta-3 -->
+                <div class="top-info">
+                    <div class="info-inside">
+                        <h1>Jim R</h1>
+                        <span id="like2">9 like(s)</span>
+                        <button class="btn" onclick="add3()">Like</button>
+                    </div>
+                    <div class="random-info">
+                        <p>I can't stop listening to the <a class="hover" href="#">new album.</a></p>
+                        <p>Who else is liking it?</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> 
+</body>
+</html>
