@@ -1,0 +1,134 @@
+*{
+    font-family: cursive ;
+}
+
+.main{
+    width: 100%;
+}
+/* nav bar */
+
+.cont-nav{
+    background-color: #9fc5f8;
+    color: whitesmoke;
+    font-weight: normal;
+    font-size: xx-large;
+}
+.container, .navbar{
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.navbar-brand{
+    color: whitesmoke;
+    font-size: xx-large;
+    margin-left: 20px;
+}
+
+#title{
+    font-weight: bold;
+}
+
+.nav-link{
+    margin-right: 25px;
+}
+/* Container principal */
+
+/* top info */
+
+.top-info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px 10px;
+    padding: 5px;
+}
+
+.temperature{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#temp{
+    margin: 10px;
+    border: solid black 2px;
+    border-radius: 2px;
+}
+
+span{
+    margin: 5px;
+    font-size: large;
+}
+
+#line{
+    background-color: black;
+    height: 05px;
+}
+
+/* Columnas de temp */
+
+.temp-img{
+    border-radius: 50%;
+    height: 150px;
+}
+
+.col{
+    background-color: #EEEEEE;
+}
+
+.pronost{
+    display: block;
+    margin-top: 25px;
+    font-size: x-large;
+}
+
+.temp-col{
+    display: flex;
+    justify-content: space-evenly;
+    font-weight: bold;
+}
+
+.top-temp{
+    color: red;
+    font-size: x-large;
+}
+
+.low-temp{
+    color: blue;
+    font-size: x-large;
+}
+
+.title-box{
+    font-weight: bold;
+}
+
+/* footer cookies */
+
+.footer{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: black 3px solid;
+    background-color: #EEEEEE;
+    width: 950px;
+}
+
+.btn{
+    background-color: #9fc5f8;
+    color: white;
+    margin-right: 30px;
+    width: 100px;
+    height: 40px;
+    font-size: medium;
+    box-shadow: 03px 03px 0px black;
+}
+
+#cookies{
+    margin-left: 30px;
+    height: 100px;
+}
+
+.text > p {
+    font-size: x-large;
+}
